@@ -46,14 +46,22 @@ _Follow the CMS workbook on jet analysis:_ [WorkBookJetAnalysis](https://twiki.c
 > * The exercises are prepared to be run directly from a cmslpc node, with non-interactive notebooks to follow and discuss the exercises.
 {: .testimonial}
 
-### Facilitators CMSDAS FNAL 2026
+### Jets Facilitators CMSDAS FNAL 2026
 
-Dennis Schwarz, Andreas Hinzmann
+- Garvita Agarwal
+- Lingqiang He 
+- Aniket Khanal
+- Honor Hare
+- Kenichi Hatakeyama
+- Alejandro Gomez Espinosa
+- Kiley Kennedy
+- Arghya Chattopadhyay
+
 
 ### Support
 
 Join the
-[SE-JetMET Mattermost channel](https://mattermost.web.cern.ch/cmsdasiithjune2025/channels/jetmet-se)
+[SE-JetMET Mattermost channel](https://mattermost.web.cern.ch/cmsdaslpc2026/channels/shortexjets)
 and don't hesitate to ask for help from the facilitators in the room.
 
 <!-- this is an html comment -->
