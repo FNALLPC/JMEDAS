@@ -1,38 +1,25 @@
-# Jet CMSDAS Exercise repository
-
-This repository contains code use for several years for each CMS Data Analysis School, and therefore there is one branch for the specific CMSDAS school. 
-
+# Jet CMSDAS Exercise Repository — DAS January 2026
+This repository contains code used for several years of the CMS Data Analysis School (CMSDAS). Each CMSDAS school corresponds to a dedicated branch that reflects the tools, 
+workflows, and best practices used in that particular year. ---
 ## For students
-
-If you want to follow the CMSDAS short jet exercise check the website: [http://cms-jet.github.io/JMEDAS/](http://cms-jet.github.io/JMEDAS)
-
-The latest version of the school is on January 2024 and therefore use the branch `DASJan2024`:
-
-```
-git clone git@github.com:cms-jet/JMEDAS.git -b DASJan2024
-```
-
-
+If you want to follow the **CMSDAS short jet exercise for January 2026**, please refer to the official CMSDAS jet exercise website and the instructions provided during the school: 
+http://cms-jet.github.io/JMEDAS/ The **January 2026** version of the school uses the branch: ``` DASJan2026 ``` You can clone the repository with: ``` git clone 
+git@github.com:cms-jet/JMEDAS.git -b DASJan2026 ``` This branch contains all the material needed to run the jet exercises as presented during CMSDAS January 2026. ---
 ## For contributors
-
-This is the master branch which contains all the code used in several CMSDAS schools. This means that many of the code is obsolete or uses tools that are not longer recommended by CMS. 
-
+The `master` branch contains code accumulated over many CMSDAS schools across multiple years. As a result, parts of the code may be obsolete or rely on tools and workflows that are 
+no longer recommended by CMS. When contributing, please make sure to target the appropriate DAS-specific branch (e.g. `DASJan2026`) rather than `master`, unless you are performing 
+broad maintenance or archival updates. ---
 ### To update the website
-
-The website uses the [carpentry software](https://github.com/carpentries/styles/). If you want to modify it, use the `gh-pages` branch and follow the recommendations from the carpentry style.
-
+The CMSDAS Jet Exercise website is built using the [Carpentries software](https://github.com/carpentries/styles/). To update the website content: - Use the `gh-pages` branch - Follow 
+the Carpentries style guidelines and contribution recommendations ---
 ### To update the exercises
-
-The latest version of the exercises, for Jan 2024, use `jupyter notebooks`, `nanoAOD` and `coffea`. This is located under `notebooks/master/`.
-
-All the previous notebooks are stored under `notebooks/obsolete/`.
-
-The code in `interface/`, `plugins/`, `scripts/` and `src/`, is the code use under CMSSW using miniAOD. These scripts are not longer used by kept here for documentation.
-
-
-## CMSDAS Jet Short Exercise - January  2024
-  
+The **January 2026 exercises** are based on modern CMS analysis tools, including: - **NanoAOD** - **Jupyter notebooks** - **Python-based workflows** - **coffea** The latest exercises 
+for DAS January 2026 are located under: ``` notebooks/master/ ``` Older or deprecated notebooks from previous CMSDAS schools are archived under: ``` notebooks/obsolete/ ``` The 
+directories: - `interface/` - `plugins/` - `scripts/` - `src/` contain legacy CMSSW-based code (typically using miniAOD). These components are **no longer used** in the January 2026 
+exercises and are kept only for documentation and historical reference. ---
+## CMSDAS Jet Short Exercise — January 2026
 ### Introduction
-This tutorial is intended to provide you with the basic you need in order to deal with jets in your analysis. We start with the basics of what is a jet, how are they reconstructed, what algorithms are used, etc. Then we give examples with scripts on how to access jets and use them in your analysis frameworks, including corrections and systematics. In the second part of the exercise, we examine jet substructure algorithms, which have many uses including identification of hadronic decays of heavy SM particles like top quarks, W, Z, and H bosons, as well as mitigation of pileup and others.
-
-The tutorial is designed to be executed at cmslpc and followed in the [JMEDAS 2024 website](http://cms-jet.github.io/JMEDAS), where you find links to instructional slides and instructions that walk you through the exercises.
+This tutorial is intended to provide the foundational knowledge required to work with jets in a CMS physics analysis. Topics covered include: - What jets are and how they are defined 
+- Jet reconstruction algorithms - Jet energy corrections and uncertainties - Practical jet analysis using NanoAOD and coffea The tutorial is designed to be run on CMS computing 
+resources (such as cmslpc) and followed alongside the instructional slides and documentation linked on the **JMEDAS 2026 website**. Participants are encouraged to work through the 
+notebooks interactively and use the provided examples as a starting point for their own analyses.
