@@ -46,7 +46,7 @@ _Follow the CMS workbook on jet analysis:_ [WorkBookJetAnalysis](https://twiki.c
 > * The exercises are prepared to be run directly from a cmslpc node, with non-interactive notebooks to follow and discuss the exercises.
 {: .testimonial}
 
-### Facilitators CMSDAS DESY 2025
+### Facilitators CMSDAS FNAL 2026
 
 Dennis Schwarz, Andreas Hinzmann
 
