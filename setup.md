@@ -47,7 +47,7 @@ cp -r ~/.globus /eos/user/${USER:0:1}/${USER}
 ## Cloning the repository
 
 ~~~
-git clone https://github.com/cms-jet/JMEDAS.git -b DASJan2026 --single-branch --depth=1
+git clone git@github.com:FNALLPC/JMEDAS.git -b DASJan2026 --single-branch --depth=1
 cd JMEDAS/notebooks/DAS/
 ~~~
 {: .language-bash}
