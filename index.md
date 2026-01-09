@@ -69,7 +69,7 @@ and don't hesitate to ask for help from the facilitators in the room.
 
 > ## Prerequisites
 >
-> [CMS DAS Pre-exercises](https://indico.cern.ch/event/1553817/) 
+> [CMS DAS Pre-exercises](https://fnallpc.github.io/cms-das-pre-exercises/) 
 {: .prereq}
 
 {% include links.md %}
